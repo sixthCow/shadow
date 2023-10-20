@@ -58,7 +58,7 @@ Key Features of Alzil :
 
 ## Credits
 
-Munhna uses the following open source packages:
+ uses the following open source packages:
 
 - [Remix](https://remix.ethereum.org/) Ethereum development environment 
 

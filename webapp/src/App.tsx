@@ -4,8 +4,8 @@ import { Main } from './pages/main';
 
 import { configureChains, createClient,  WagmiConfig } from 'wagmi';
 import { localhost } from 'wagmi/chains';
-import { rskTestnet } from './utils/rskTestnet';
-import { bitfinityTestnet } from './utils/bitfinityTestnet';
+import { ssTestnet } from './utils/ssTestnet';
+import { mantleTestnet } from './utils/mantleTestnet';
 
 
 import { publicProvider } from 'wagmi/providers/public';
@@ -14,7 +14,7 @@ import { MetaMaskConnector } from 'wagmi/connectors/metaMask';
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect';
 
 const { chains, provider, webSocketProvider } = configureChains(
-  [ rskTestnet, bitfinityTestnet, localhost],
+  [ ssTestnet, mantleTestnet, localhost],
   [publicProvider()]
 );
 const client = createClient({

@@ -222,7 +222,7 @@ export function Withdraw() {
       /* .mul(BigNumber.from(3))
         .div(BigNumber.from(2)); */
 
-      if(chain?.id == 5611) {
+      if(chain?.id == 534351 || 5001) {
         fee = fee.add(25000000000000);
         console.log(`opbnb: ${fee.toNumber()}`);
       }        

@@ -200,7 +200,7 @@ export function AlzilID() {
         className="alzil-pane-body"
         style={{ display: opened ? 'block' : 'none' }}
       >
-        <p className="block">Share the Alzil ID to receive tRBTC</p>
+        <p className="block">Share the Alzil ID to receive native tokens</p>
         <div className="alzil-pane-header buttons">
           <div className="block-wide">
             <p className="label" style={{ textTransform: 'uppercase' }}>
